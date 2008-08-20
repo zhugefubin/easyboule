@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="easyboule.cdt.managedbuild.target.gnu.cygwin.exe.2075265351" name="Executable (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="easyboule" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1246249701" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.506646430" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<builder command="mingw32-make" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug.464632348" name="Gnu Make.Debug" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1169532193" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.80204391" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="WXUSINGDLL"/>
+<listOptionValue builtIn="false" value="HAVE_W32API_H"/>
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="_UNICODE"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.2948191" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_lib\mswu&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
+</option>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1100707249" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1363324594" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1488518654" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.1587926992" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="wxmsw28u"/>
+<listOptionValue builtIn="false" value="wxpng"/>
+<listOptionValue builtIn="false" value="wxregexu"/>
+<listOptionValue builtIn="false" value="wxtiff"/>
+<listOptionValue builtIn="false" value="wxzlib"/>
+<listOptionValue builtIn="false" value="wxexpat"/>
+<listOptionValue builtIn="false" value="wxjpeg"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1362034932" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib&quot;"/>
+</option>
+<option id="gnu.cpp.link.option.flags.447733033" superClass="gnu.cpp.link.option.flags" value="-mthread -Wl,--subsystem,windows -mwindows" valueType="string"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.745959597" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="exe" artifactName="easyboule" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.release.1924747121" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1358029491" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
+<builder command="mingw32-make" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.203396523" name="Gnu Make.Release" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.1479339730" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
+<option id="gnu.cpp.compiler.option.preprocessor.def.1075099347" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="WXUSINGDLL"/>
+<listOptionValue builtIn="false" value="HAVE_W32API_H"/>
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="_UNICODE"/>
+</option>
+<option id="gnu.cpp.compiler.option.preprocessor.undef.1909347439" superClass="gnu.cpp.compiler.option.preprocessor.undef" valueType="stringList"/>
+<option id="gnu.cpp.compiler.option.include.paths.1439827522" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_lib\mswu&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\include&quot;"/>
+</option>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.98591677" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.1606611271" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.603053702" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release">
+<option id="gnu.cpp.link.option.libs.1161810642" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="wxmsw28u"/>
+<listOptionValue builtIn="false" value="wxpng"/>
+<listOptionValue builtIn="false" value="wxregexu"/>
+<listOptionValue builtIn="false" value="wxtiff"/>
+<listOptionValue builtIn="false" value="wxzlib"/>
+<listOptionValue builtIn="false" value="wxexpat"/>
+<listOptionValue builtIn="false" value="wxjpeg"/>
+</option>
+<option id="gnu.cpp.link.option.paths.2007269667" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib&quot;"/>
+</option>
+<option id="gnu.cpp.link.option.flags.1834968543" superClass="gnu.cpp.link.option.flags" value="-mthread -Wl,--subsystem,windows -mwindows" valueType="string"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1500002393" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>
