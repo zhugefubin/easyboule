@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 3.1.0?>
 
 <ManagedProjectBuildInfo>
@@ -9,12 +9,14 @@
 <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1169532193" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
 <option id="gnu.cpp.compiler.option.preprocessor.def.80204391" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
 <listOptionValue builtIn="false" value="WXUSINGDLL"/>
+<listOptionValue builtIn="false" value="__GNUWIN32__"/>
 <listOptionValue builtIn="false" value="HAVE_W32API_H"/>
 <listOptionValue builtIn="false" value="__WXMSW__"/>
 <listOptionValue builtIn="false" value="_UNICODE"/>
 </option>
 <option id="gnu.cpp.compiler.option.include.paths.2948191" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_lib\mswu&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll\mswu&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\MinGW\include\c++&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\include&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
 </option>
@@ -33,6 +35,7 @@
 </option>
 <option id="gnu.cpp.link.option.paths.1362034932" superClass="gnu.cpp.link.option.paths" valueType="stringList">
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\MinGW\lib&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib&quot;"/>
 </option>
 <option id="gnu.cpp.link.option.flags.447733033" superClass="gnu.cpp.link.option.flags" value="-mthread -Wl,--subsystem,windows -mwindows" valueType="string"/>
@@ -51,7 +54,7 @@
 <listOptionValue builtIn="false" value="__WXMSW__"/>
 <listOptionValue builtIn="false" value="_UNICODE"/>
 </option>
-<option id="gnu.cpp.compiler.option.preprocessor.undef.1909347439" superClass="gnu.cpp.compiler.option.preprocessor.undef" valueType="stringList"/>
+<option id="gnu.cpp.compiler.option.preprocessor.undef.1909347439" superClass="gnu.cpp.compiler.option.preprocessor.undef"/>
 <option id="gnu.cpp.compiler.option.include.paths.1439827522" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_lib\mswu&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
