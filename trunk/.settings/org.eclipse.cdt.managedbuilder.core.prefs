@@ -1,4 +1,4 @@
-#Sat Aug 23 10:39:36 CST 2008
+#Mon Aug 25 22:08:13 CST 2008
 cdt.managedbuild.config.gnu.cygwin.exe.debug.1246249701/internalBuilder/enabled=false
 cdt.managedbuild.config.gnu.cygwin.exe.debug.1246249701/internalBuilder/ignoreErr=true
 cdt.managedbuild.config.gnu.cygwin.exe.release.1924747121/internalBuilder/enabled=false
@@ -10,4 +10,4 @@ environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.cygwin.exe.debug
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.cygwin.exe.release.1924747121=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment>\r\n<variable name\="LIBRARY_PATH" operation\="remove"/>\r\n</environment>\r\n
 environment/project=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<environment/>\r\n
 environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1246249701=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<environment/>\r\n
-environment/project/cdt.managedbuild.config.gnu.cygwin.exe.release.1924747121=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment/>\r\n
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.release.1924747121=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<environment/>\r\n

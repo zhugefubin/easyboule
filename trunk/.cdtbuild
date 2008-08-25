@@ -8,15 +8,13 @@
 <builder command="mingw32-make" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug.464632348" name="Gnu Make.Debug" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug"/>
 <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1169532193" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
 <option id="gnu.cpp.compiler.option.preprocessor.def.80204391" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
-<listOptionValue builtIn="false" value="WXUSINGDLL"/>
-<listOptionValue builtIn="false" value="__GNUWIN32__"/>
-<listOptionValue builtIn="false" value="HAVE_W32API_H"/>
 <listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="__WXDEBUG__"/>
 <listOptionValue builtIn="false" value="_UNICODE"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL"/>
 </option>
 <option id="gnu.cpp.compiler.option.include.paths.2948191" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll\mswu&quot;"/>
-<listOptionValue builtIn="false" value="&quot;D:\MinGW\include\c++&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll\mswud&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\include&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
 </option>
@@ -25,20 +23,19 @@
 <tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1363324594" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
 <tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1488518654" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
 <option id="gnu.cpp.link.option.libs.1587926992" superClass="gnu.cpp.link.option.libs" valueType="libs">
-<listOptionValue builtIn="false" value="wxmsw28u"/>
-<listOptionValue builtIn="false" value="wxpng"/>
-<listOptionValue builtIn="false" value="wxregexu"/>
-<listOptionValue builtIn="false" value="wxtiff"/>
-<listOptionValue builtIn="false" value="wxzlib"/>
-<listOptionValue builtIn="false" value="wxexpat"/>
-<listOptionValue builtIn="false" value="wxjpeg"/>
+<listOptionValue builtIn="false" value="wxexpatd"/>
+<listOptionValue builtIn="false" value="wxjpegd"/>
+<listOptionValue builtIn="false" value="wxmsw28ud"/>
+<listOptionValue builtIn="false" value="wxpngd"/>
+<listOptionValue builtIn="false" value="wxregexud"/>
+<listOptionValue builtIn="false" value="wxtiffd"/>
+<listOptionValue builtIn="false" value="wxzlibd"/>
 </option>
 <option id="gnu.cpp.link.option.paths.1362034932" superClass="gnu.cpp.link.option.paths" valueType="stringList">
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll&quot;"/>
-<listOptionValue builtIn="false" value="&quot;D:\MinGW\lib&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib&quot;"/>
 </option>
-<option id="gnu.cpp.link.option.flags.447733033" superClass="gnu.cpp.link.option.flags" value="-mthread -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.flags.447733033" superClass="gnu.cpp.link.option.flags" value="-Wl,--subsystem,windows -mwindows" valueType="string"/>
 </tool>
 <tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.745959597" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
 <macros/>
@@ -49,29 +46,28 @@
 <builder command="mingw32-make" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.203396523" name="Gnu Make.Release" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
 <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.1479339730" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
 <option id="gnu.cpp.compiler.option.preprocessor.def.1075099347" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
-<listOptionValue builtIn="false" value="WXUSINGDLL"/>
-<listOptionValue builtIn="false" value="HAVE_W32API_H"/>
 <listOptionValue builtIn="false" value="__WXMSW__"/>
 <listOptionValue builtIn="false" value="_UNICODE"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL"/>
 </option>
 <option id="gnu.cpp.compiler.option.preprocessor.undef.1909347439" superClass="gnu.cpp.compiler.option.preprocessor.undef"/>
 <option id="gnu.cpp.compiler.option.include.paths.1439827522" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_lib\mswu&quot;"/>
-<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll\mswu&quot;"/>
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\contrib\include&quot;"/>
 </option>
 </tool>
 <tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.98591677" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release"/>
 <tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.1606611271" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release"/>
 <tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.603053702" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release">
 <option id="gnu.cpp.link.option.libs.1161810642" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="wxexpat"/>
+<listOptionValue builtIn="false" value="wxjpeg"/>
 <listOptionValue builtIn="false" value="wxmsw28u"/>
 <listOptionValue builtIn="false" value="wxpng"/>
 <listOptionValue builtIn="false" value="wxregexu"/>
 <listOptionValue builtIn="false" value="wxtiff"/>
 <listOptionValue builtIn="false" value="wxzlib"/>
-<listOptionValue builtIn="false" value="wxexpat"/>
-<listOptionValue builtIn="false" value="wxjpeg"/>
 </option>
 <option id="gnu.cpp.link.option.paths.2007269667" superClass="gnu.cpp.link.option.paths" valueType="stringList">
 <listOptionValue builtIn="false" value="&quot;D:\wxMSW-2.8.8\lib\gcc_dll&quot;"/>
