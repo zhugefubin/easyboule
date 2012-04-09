@@ -11,5 +11,5 @@
 
 = Plan =
 
-KeepMyFitForAndroid
-KeepMyFitForWeb
+  *KeepMyFitForAndroid
+  *KeepMyFitForWeb
