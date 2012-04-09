@@ -1,6 +1,0 @@
-mingw32-make -f makefile.gcc clean
-mingw32-make -f makefile.gcc shared=1 unicode=1 build=debug monolithic=1
-mingw32-make -f makefile.gcc shared=1 unicode=1 build=release monolithic=1
-
-//测试svn分支功能
-
