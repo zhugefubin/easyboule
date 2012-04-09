@@ -1,12 +1,15 @@
-#summary Project Keep My Fit
+#summary This is a project for helping user to manage fitness plan.
 #labels Phase-Requirements
 
-= Introduction =
+= Members =
 
-Project Keep My Fit.
+= Overview =
 
+= Motivation =
 
-= Details =
+= Solution =
+
+= Plan =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
