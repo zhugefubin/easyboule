@@ -6,5 +6,8 @@ Android client for KeepMyFit.
 基于标准Android4.0 SDK的应用，支持手机和平板设备。
 
 = Details =
-主界面设计
+
+= 主界面设计 =
+
+ * Main for PAD
 https://lh6.googleusercontent.com/-zbsUG8g_C38/T4er6qIYn3I/AAAAAAAAAJE/Zji98dEaa5s/s640/main%2520for%2520pad.png
