@@ -2,8 +2,9 @@
 #labels Phase-Requirements
 
 = Introduction =
-
 Android client for KeepMyFit.
-
+基于标准Android4.0 SDK的应用，支持手机和平板设备。
 
 = Details =
+主界面设计
+
