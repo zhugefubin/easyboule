@@ -7,4 +7,4 @@ Android client for KeepMyFit.
 
 = Details =
 主界面设计
-
+https://lh6.googleusercontent.com/-zbsUG8g_C38/T4er6qIYn3I/AAAAAAAAAJE/Zji98dEaa5s/s640/main%2520for%2520pad.png
