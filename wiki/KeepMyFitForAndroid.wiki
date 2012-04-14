@@ -10,4 +10,4 @@ Android client for KeepMyFit.
 = 主界面设计 =
 
  * Main for PAD
-https://lh6.googleusercontent.com/-zbsUG8g_C38/T4er6qIYn3I/AAAAAAAAAJE/Zji98dEaa5s/s640/main%2520for%2520pad.png
+https://lh6.googleusercontent.com/-jLToLbW3tRc/T4lf0CWE3xI/AAAAAAAAAJs/lDSnlbGwN6I/s640/mainforpad.jpg
