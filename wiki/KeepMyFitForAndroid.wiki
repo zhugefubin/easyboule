@@ -11,3 +11,5 @@ Android client for KeepMyFit.
 
  * Main for PAD
 https://lh6.googleusercontent.com/-jLToLbW3tRc/T4lf0CWE3xI/AAAAAAAAAJs/lDSnlbGwN6I/s640/mainforpad.jpg
+ * Main for phone
+https://lh3.googleusercontent.com/-OF5zXwjCnbI/T4litVWkiyI/AAAAAAAAAJ8/WriXuo-IvrU/s640/mainforphone.jpg
