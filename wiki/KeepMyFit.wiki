@@ -25,3 +25,4 @@ KeepMyFit希望通过云服务为每个人提供个人健康信息的存储，�
 
   * KeepMyFitForAndroid
   * KeepMyFitForWeb
+  * KeepMyFitForIOS
