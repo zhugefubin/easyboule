@@ -1,0 +1,14 @@
+#summary GoingDutch中文意思是AA制，本项目是开发一款方便大家在不同场合AA制的手机应用。
+#labels Featured
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
