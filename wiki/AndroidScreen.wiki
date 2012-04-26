@@ -1,0 +1,15 @@
+#summary 是一款Android手机屏幕录制软件。
+#labels Featured
+
+= Introduction =
+
+Add your content here.
+
+
+= Members =
+zhuangtaizzt@gmail.com
+wangzongjunvip@163.com 
+
+= Motivation =
+
+= Solution =
