@@ -2,9 +2,7 @@
 #labels Featured
 
 = Introduction =
-
-Add your content here.
-
+在项目过程中，常常需要给客户演示软件在真机上的运行效果，录制视频是一种很好的方法。本项目的目标是针对Anroid手机上开发一款屏幕录制软件。
 
 = Members =
 
@@ -12,5 +10,9 @@ Add your content here.
  * wangzongjunvip@163.com 
 
 = Motivation =
+ * 如何在PC机上录制手机视频？
+ * 如何在手机上直接录制屏幕视频？
 
 = Solution =
+ * 在PC机上，在SDK中自带的ddms工具可以连接手机设备并且进行截屏。开发者可以通过使用自带的ddmlib实现相同的功能；
+ * 首先通过定时截屏功能录制手机屏幕的变化；然后再将所有的图片连接成一段视频。
