@@ -14,5 +14,17 @@
  * 如何在手机上直接录制屏幕视频？
 
 = Solution =
- * PC机上方案：在SDK中，自带的ddms工具可以连接手机设备并且进行截屏。开发者可以通过使用自带的ddmlib实现相同的功能；
+ * PC机上方案：
+ * 在SDK中，自带的ddms工具可以连接手机设备并且进行截屏。开发者可以通过使用自带的ddmlib实现相同的功能；
  * 首先通过定时截屏功能录制手机屏幕的变化；然后再将所有的图片连接成一段视频。
+ * 手机上方案：
+ * 由于Android的内核是一个定制版本的Linux系统，其中framebuffer是linux内核对显示的最底层驱动。在一般的linux文件系统中，通过/dev/fb0设备文件来提供给应用程序对framebuffer进行读写的访问。在Android系统中，这个设备文件被放在了/dev/graphics/fb0
+ * 读取的方法很简单，就将/dev/graphics/fb0当作一般的文件读取即可。可以通过ioctl()方法获取图像的长宽，以及每一个pixel对应的数据量。在Android系统中，采用的是rbg565的编码方式。
+ * 从Android系统中读取原生数据后，可以使用ffmpeg转化成我们需要的格式。
+ * 问题：获取framebuffer数据命令需要root权限；ffmpeg需要制作android版本。
+ * 参考资料：
+ * 开源项目 http://code.google.com/p/android-screenshot-library/source/checkout
+ * blog: http://my.opera.com/otaku_2r/blog/grab-a-frame-in-android-frame-buffer
+ * http://xzpeter.org/?p=229
+
+
