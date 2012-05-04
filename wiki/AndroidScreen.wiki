@@ -10,8 +10,9 @@
  * wangzongjunvip@163.com 
 
 = Motivation =
- * 如何在PC机上录制手机视频？
- * 如何在手机上直接录制屏幕视频？
+ * 在项目开发过程中，项目人员常常需要给客户演示软件开发的进度。播放录制视频是一种很好的演示手段，既可以直观的展示成果，减少构建运行环境的过程，同时由于不直接接触程序和源码，保证了开发方的版权利益；
+ * 在项目的测试过程中，测试人员常常需要给开发人员重现bug出现的过程。提供当时操作的视频，可以方便快速的让开发人员发现bug的问题所在；
+ * 在项目的测试过程中，测试人员不可能时时刻刻守在测试机器前，所以对自动化测试过程进行录制，可以提高测试效率；
 
 = Solution =
  * PC机上方案：
@@ -27,4 +28,5 @@
  * blog: http://my.opera.com/otaku_2r/blog/grab-a-frame-in-android-frame-buffer
  * http://xzpeter.org/?p=229
 
-
+= Architecture =
+https://lh5.googleusercontent.com/-20TScQCd7n8/T6NWvAbB74I/AAAAAAAAAKU/_T058AKi3kI/s144/AndroidScreen.jpg
