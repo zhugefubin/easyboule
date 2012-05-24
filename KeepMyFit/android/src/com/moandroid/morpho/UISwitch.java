@@ -2,8 +2,9 @@ package com.moandroid.morpho;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.View;
 
-public class UISwitch extends UIControl {
+public class UISwitch extends View {
 
 	public UISwitch(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);

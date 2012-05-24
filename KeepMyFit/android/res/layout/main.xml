@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:morpho="http://schemas.android.com/apk/res/com.moandroid.tool"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+
+    <com.moandroid.morpho.UIButton
+    	android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+        morpho:text="Button">
+    </com.moandroid.morpho.UIButton>
+
 </LinearLayout>
