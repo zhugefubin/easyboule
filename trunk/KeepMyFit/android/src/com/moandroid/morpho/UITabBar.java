@@ -2,8 +2,9 @@ package com.moandroid.morpho;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.View;
 
-public class UITabBar extends UIView {
+public class UITabBar extends View {
 
 	public UITabBar(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);

@@ -2,8 +2,9 @@ package com.moandroid.morpho;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.view.View;
 
-public class UISegmentedControl extends UIControl {
+public class UISegmentedControl extends View {
 
 	public UISegmentedControl(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
